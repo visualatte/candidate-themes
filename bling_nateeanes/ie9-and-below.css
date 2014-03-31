@@ -1,0 +1,17 @@
+
+
+/* Form */
+
+#edit-submitted-billing-information-payment-fields-credit {
+	height: auto;
+}
+
+.webform-client-form {
+	max-width: 730px;
+}
+
+#webform-component-billing-information .form-item.webform-component,
+#edit-submitted-billing-information-payment-fields-credit .form-item,
+.expiration-date-wrapper { 
+	min-height: 40px;
+}

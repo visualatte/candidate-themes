@@ -1,5 +1,7 @@
-name = Bling
+name = Bling Nathan Eanes
 core = 7.x
 engine = phptemplate
 
 stylesheets[all][] = layout.css
+
+scripts[] = js/donation.js
