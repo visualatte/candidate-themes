@@ -321,6 +321,10 @@ button {
   margin-bottom: 18em;
 }
 
+#webform-component-donation--amount .form-item {
+  margin-bottom: 12px;
+}
+
 #webform-component-billing-information .form-item.webform-component,
 #edit-submitted-billing-information-payment-fields-credit .form-item,
 .expiration-date-wrapper { 
@@ -632,6 +636,7 @@ body {
     float: left; 
     clear: none;
     width: 14.25%;
+    margin-bottom: 0;
   }
 
   #webform-component-donation--amount .form-radio,
