@@ -110,7 +110,7 @@ pre {
 /* Headers */
 
 h1, h2, h3, h4 {
-	margin: 0.25em 0 0.5em 0;
+	margin: 0.375em 0 0.5em 0;
 	line-height: 120%;
 }
 
@@ -219,11 +219,6 @@ label {
 	font-weight: normal;
 }
 
-label.error {
-	float: right !important;
-	max-width: 60%;
-}
-
 input[type=text],
 input.form-text {
 	padding: 0.3333em 1%;
@@ -260,10 +255,14 @@ input[type=checkbox] {
 	clear: both;
 }
 
+.webform-component-checkboxes .description {
+	padding-left: 20px;
+}
+
 input.form-submit {
 	background: url(img/bg-button.jpg) right center no-repeat;
 	border: 1px solid #fdc72f;
-	box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.6);
+	box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.8);
 	font-size: 1.25em;
 	letter-spacing: -1px;
 	text-transform: uppercase;
@@ -525,6 +524,16 @@ body {
   padding-top: 0.5em;
 }
 
+#ratings_from {
+	padding-bottom: 1em;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 1em;
+	}
+	
+	#ratings_from h2 {
+	margin: 0 0 1.25em;
+	}
+
 /* Page Footer */
 
 .foot {
@@ -534,11 +543,11 @@ body {
 }
 
 .footer-line {
+	text-align: left;
 	margin: 0 10px 10px 10px;
 }
 
 .container.close {
-	text-align: right; 
 	color: #848484;
 	padding: 30px 0;
 }
@@ -669,6 +678,7 @@ body {
 	.fundraiser-payment-fields input {
 		float: left;
 		max-width: 60%;
+		margin-top: 0;
 	}
 	
 	.fundraiser_submit_message {
@@ -703,18 +713,10 @@ body {
 		padding-left: 7px;
 	}
 	
-	/* Content area */
-	
-	#ratings_from {
-		padding-bottom: 1em;
-		border-bottom: 1px dotted #ccc;
-		margin-bottom: 1em;
-	}
-	
 	/* Donation Webform */
 	
 	.webform-client-form {
-		max-width: 665px;
+		max-width: 700px;
 	}
 	
 	.form-item-submitted-billing-information-payment-fields-credit-card-cvv .description {
@@ -785,8 +787,8 @@ body {
 	#edit-submitted-billing-information-payment-fields-credit > .fieldset-wrapper > .form-item,
 	.expiration-date-wrapper {
 		float: left;
-		width: 44%;
-		margin-right: 6%;
+		width: 48%;
+		margin-right: 2%;
 	}
 	
 	.form-item-submitted-billing-information-payment-fields-credit-card-cvv label,
@@ -869,7 +871,19 @@ body {
 	}
 	
 	.footer-line {
+		text-align: right;
 		margin: 0;
+	}
+	
+	/* Webform */
+	
+	#webform-component-billing-information > .fieldset-wrapper > .form-item,
+	#webform-component-billing-information #zone-select-wrapper,
+	#edit-submitted-billing-information-payment-fields-credit > .fieldset-wrapper > .form-item,
+	.expiration-date-wrapper {
+		float: left;
+		width: 43%;
+		margin-right: 7%;
 	}
 	
 	/* Grid Elements */
