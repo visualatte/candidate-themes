@@ -1,29 +1,29 @@
 /* Content area */
 
 .node {
-	width: 100%;
-	margin-top: -100px;
+  width: 100%;
+  margin-top: -100px;
 }
 
 #donation-message {
-	width: 50%;
+  width: 50%;
 }
 
 /* Form */
 
 #webform-component-donation--amount .form-item {
-	width: 13.75%;
+  width: 13.75%;
 }
 
 .description {
-	width: 100%;
+  width: 100%;
 }
 
 .form-item-submitted-billing-information-payment-fields-credit-card-cvv .description {
-	width: auto;
+  width: auto;
 }
 
 input.form-submit {
-	float: left;
-	width: 200px;
+  float: left;
+  width: 200px;
 }

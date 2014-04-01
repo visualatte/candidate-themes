@@ -1,3 +1,7 @@
+/**
+ * @file
+ * This is the CSS for the donation form.
+ */
 
 /**********************************************************************************************************//**
  * GENERAL (BASELINE) STYLES
@@ -18,11 +22,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 p {
-	margin: 0 0 1em 0;
+  margin: 0 0 1em 0;
 }
 
 img {
-	max-width: 100% !important;
+  max-width: 100% !important;
 }
 
 nav ul {
@@ -106,16 +110,16 @@ pre {
 /* Headers */
 
 h1, h2, h3, h4 {
-	margin: 0.375em 0 0.5em 0;
-	line-height: 120%;
+  margin: 0.375em 0 0.5em 0;
+  line-height: 120%;
 }
 
 h1 {
-	font-size: 1.75em;
+  font-size: 1.75em;
 }
 
 h2 {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 /* Body text */
@@ -149,9 +153,9 @@ a {
 }
 
 .gridwrap a {
-	color: #d06500;
-	text-decoration: none;
-	font-weight: bold;
+  color: #d06500;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
@@ -177,19 +181,19 @@ a:link {
 **************************************************************************************************************/
 
 fieldset {
-	border: none;
-	margin: 0 0 2.5em 0;
-	padding: 0.5em 0 0 0;
-	max-width: 100% !important;
+  border: none;
+  margin: 0 0 2.5em 0;
+  padding: 0.5em 0 0 0;
+  max-width: 100% !important;
 }
 
 fieldset fieldset {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 legend {
-	font-weight: bold;
-	font-size: 1.3333em;
+  font-weight: bold;
+  font-size: 1.3333em;
 }
 
 .ie6 legend,.ie7 legend {
@@ -199,28 +203,28 @@ legend {
 .webform-container-inline label,
 .webform-container-inline input.form-text,
 .webform-container-inline select {
-	display: block;
+  display: block;
 }
 
 .form-item,
 .expiration-date-wrapper {
-	margin: 0 0 0.75em 0;
-	clear: both;
-	max-width: 275px;
+  margin: 0 0 0.75em 0;
+  clear: both;
+  max-width: 275px;
 }
 
 label {
-	font-weight: normal;
+  font-weight: normal;
 }
 
 input[type=text],
 input.form-text {
-	padding: 0.3333em 1%;
-	max-width: 97%;
+  padding: 0.3333em 1%;
+  max-width: 97%;
 }
 
 select {
-	max-width: 90%;
+  max-width: 90%;
 }
 
 textarea {
@@ -245,22 +249,22 @@ input[type=checkbox] {
 }
 
 .description {
-	color: #888;
-	clear: both;
+  color: #888;
+  clear: both;
 }
 
 .webform-component-checkboxes .description {
-	padding-left: 20px;
+  padding-left: 20px;
 }
 
 input.form-submit {
-	background: url(img/bg-button.jpg) right center no-repeat;
-	border: 1px solid #fdc72f;
-	box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.8);
-	font-size: 1.25em;
-	letter-spacing: -1px;
-	text-transform: uppercase;
-	padding: 10px 60px 10px 10px;
+  background: url(img/bg-button.jpg) right center no-repeat;
+  border: 1px solid #fdc72f;
+  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.8);
+  font-size: 1.25em;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  padding: 10px 60px 10px 10px;
 }
 
 /* hand cursor on clickable input elements */
@@ -314,40 +318,40 @@ button {
 /* Donation Webform */
 
 .webform-client-form {
-	margin-bottom: 18em;
+  margin-bottom: 18em;
 }
 
 #webform-component-billing-information .form-item.webform-component,
 #edit-submitted-billing-information-payment-fields-credit .form-item,
 .expiration-date-wrapper { 
-	min-height: 34px;
+  min-height: 34px;
 }
 
 .form-item-submitted-billing-information-payment-fields-credit-card-cvv .description {
-	display: inline-block;
-	clear: none;
-	margin-top: 0 !important;
+  display: inline-block;
+  clear: none;
+  margin-top: 0 !important;
 }
 
 .form-item-submitted-billing-information-payment-fields-credit-card-cvv .description a {
-	background: url(img/icon-questionmark.jpg) left center no-repeat;
-	margin-left: 5px;
-	padding: 4px 0 4px 24px;
-	display: inline-block;
+  background: url(img/icon-questionmark.jpg) left center no-repeat;
+  margin-left: 5px;
+  padding: 4px 0 4px 24px;
+  display: inline-block;
 }
 
 .fundraiser_submit_message {
-	color: #888;
-	text-align: left;
+  color: #888;
+  text-align: left;
 }
 
 .fundraiser_submit_message p {
-	max-width: 270px;
+  max-width: 270px;
 }
 
 .fundraiser_submit_message img {
-	float: left;
-	margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 /**********************************************************************************************************//**
@@ -409,13 +413,13 @@ blockquote:before,blockquote:after,q:before,q:after {
 12 Column Grid at 978px with 30px gutters */
 .gridwrap,
 .container.close {
-	max-width: 945px;
+  max-width: 945px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .gridwrap .inner {
-	margin: 0 13px;
+  margin: 0 13px;
 }
 
 .grid-color {
@@ -442,7 +446,7 @@ blockquote:before,blockquote:after,q:before,q:after {
 .grid-4,
 .grid-4,
 .grid-5 {
-	width: 50%;
+  width: 50%;
 }
 
 .grid-6,
@@ -456,11 +460,11 @@ blockquote:before,blockquote:after,q:before,q:after {
 }
 
 .first {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .last {
-	padding-right: 0;
+  padding-right: 0;
 }
 
 
@@ -485,23 +489,23 @@ body {
 }
 
 #logo-top {
-	display: block;
-	float: left;
-	margin: 15px 0 0 0;
-	max-width: 45%;
+  display: block;
+  float: left;
+  margin: 15px 0 0 0;
+  max-width: 45%;
 }
 
 #header_right {
-	padding-top: 10px;
-	font-size: 0.9166666em;
-	color: #666;
-	float: right;
+  padding-top: 10px;
+  font-size: 0.9166666em;
+  color: #666;
+  float: right;
 }
 
 #donation-message {
-	border-top: 1px dotted #bbb;
-	padding-top: 0.5em;
-	padding-left: 0;
+  border-top: 1px dotted #bbb;
+  padding-top: 0.5em;
+  padding-left: 0;
 }
 
 /* Content Area & Sidebars */
@@ -513,14 +517,14 @@ body {
 }
 
 #ratings_from {
-	padding-bottom: 1em;
-	border-bottom: 1px dotted #ccc;
-	margin-bottom: 1em;
-	}
-	
-	#ratings_from h2 {
-	margin: 0 0 1.25em;
-	}
+  padding-bottom: 1em;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 1em;
+  }
+
+  #ratings_from h2 {
+  margin: 0 0 1.25em;
+  }
 
 /* Page Footer */
 
@@ -531,13 +535,13 @@ body {
 }
 
 .footer-line {
-	text-align: left;
-	margin: 0 10px 10px 10px;
+  text-align: left;
+  margin: 0 10px 10px 10px;
 }
 
 .container.close {
-	color: #848484;
-	padding: 30px 0;
+  color: #848484;
+  padding: 30px 0;
 }
 
 @media print {
@@ -608,70 +612,70 @@ body {
  * Let's make the donation-amount fields inline.
  */
 @media all and (min-width: 361px) {
-	.form-item,
-	.expiration-date-wrapper {
-		max-width: 650px;
-	}
+  .form-item,
+  .expiration-date-wrapper {
+    max-width: 650px;
+  }
 }
 
 @media all and (min-width: 479px) {
-	
-	/* Donation Webform */
-	
-	#webform-component-donation--amount {
-		float: left;
-		width: 83%;
-		max-width: 370px;
-	}
-	
-	#webform-component-donation--amount .form-item {
-		float: left; 
-		clear: none;
-		width: 14.25%;
-	}
-	
-	#webform-component-donation--amount .form-radio,
-	#webform-component-donation--amount label {
-		display: block;
-	}
-	
-	#webform-component-donation--other-amount {
-		padding-top: 18px;
-		margin-left: -15px;
-		width: 15%;
-		float: left;
-		clear: none;
-	}
-	
-	#webform-component-payment-options {
-		margin-top: -27px;
-	}
-	
-	#webform-component-billing-information {
-		margin-bottom: 1.5em;
-	}
-	
-	.webform-container-inline label,
-	.fundraiser-payment-fields label {
-		float: left;
-		width: 35%;
-		margin-right: 0;
-	}
-	
-	.webform-container-inline input.form-text,
-	.webform-container-inline select,
-	.fundraiser-payment-fields input {
-		float: left;
-		max-width: 60%;
-		margin-top: 0;
-	}
-	
-	.fundraiser_submit_message {
-		float: right;
-		width: 51%;
-		padding-top: 0.5em;
-	}
-	
+
+  /* Donation Webform */
+
+  #webform-component-donation--amount {
+    float: left;
+    width: 83%;
+    max-width: 370px;
+  }
+
+  #webform-component-donation--amount .form-item {
+    float: left; 
+    clear: none;
+    width: 14.25%;
+  }
+
+  #webform-component-donation--amount .form-radio,
+  #webform-component-donation--amount label {
+    display: block;
+  }
+
+  #webform-component-donation--other-amount {
+    padding-top: 18px;
+    margin-left: -15px;
+    width: 15%;
+    float: left;
+    clear: none;
+  }
+
+  #webform-component-payment-options {
+    margin-top: -27px;
+  }
+
+  #webform-component-billing-information {
+    margin-bottom: 1.5em;
+  }
+
+  .webform-container-inline label,
+  .fundraiser-payment-fields label {
+    float: left;
+    width: 35%;
+    margin-right: 0;
+  }
+
+  .webform-container-inline input.form-text,
+  .webform-container-inline select,
+  .fundraiser-payment-fields input {
+    float: left;
+    max-width: 60%;
+    margin-top: 0;
+  }
+
+  .fundraiser_submit_message {
+    float: right;
+    width: 51%;
+    padding-top: 0.5em;
+  }
+
 }
 
 /**
@@ -679,104 +683,104 @@ body {
  * and change the percentage widths for the grid items.
  */
 @media all and (min-width: 600px) {
-	
-	/* Page header */
-	
-	#logo-top {
-		width: 22%;
-		margin: 15px 2% 0 0;
-	}
-	
-	#header_right {
-		padding-top: 28px;
-	}
-	
-	#donation-message {
-		border-top: none;
-		padding-top: 0;
-		padding-left: 7px;
-	}
-	
-	/* Donation Webform */
-	
-	.webform-client-form {
-		max-width: 700px;
-	}
-	
-	.form-item-submitted-billing-information-payment-fields-credit-card-cvv .description {
-		float: left;
-		display: block;
-	}
-	
-	#edit-submitted-billing-information-payment-fields-credit .description,
-	.webform-container-inline .description {
-		float: left;
-		margin-top: -12px;
-	}
-	
-	.fundraiser_submit_message {
-		width: 61%;
-	}
-	
-	/* Grid elements */
-	
-	.grid-1,
-	.grid-2,
-	.grid-3 {
-		width: 25%;
-	}
-	
-	.grid-4 {
-	  width: 33.33333%;
-	}
-	
-	.grid-5,
-	.grid-6 {
-		width: 50%;
-	}
-	
-	.grid-7,
-	.grid-8 {
-		width: 66.6%;
-	}
-	
-	.grid-9,
-	.grid-10,
-	.grid-11,
-	.grid-12 {
-	  width: 100%;
-	}
+
+  /* Page header */
+
+  #logo-top {
+    width: 22%;
+    margin: 15px 2% 0 0;
+  }
+
+  #header_right {
+    padding-top: 28px;
+  }
+
+  #donation-message {
+    border-top: none;
+    padding-top: 0;
+    padding-left: 7px;
+  }
+
+  /* Donation Webform */
+
+  .webform-client-form {
+    max-width: 700px;
+  }
+
+  .form-item-submitted-billing-information-payment-fields-credit-card-cvv .description {
+    float: left;
+    display: block;
+  }
+
+  #edit-submitted-billing-information-payment-fields-credit .description,
+  .webform-container-inline .description {
+    float: left;
+    margin-top: -12px;
+  }
+
+  .fundraiser_submit_message {
+    width: 61%;
+  }
+
+  /* Grid elements */
+
+  .grid-1,
+  .grid-2,
+  .grid-3 {
+    width: 25%;
+  }
+
+  .grid-4 {
+    width: 33.33333%;
+  }
+
+  .grid-5,
+  .grid-6 {
+    width: 50%;
+  }
+
+  .grid-7,
+  .grid-8 {
+    width: 66.6%;
+  }
+
+  .grid-9,
+  .grid-10,
+  .grid-11,
+  .grid-12 {
+    width: 100%;
+  }
 }
 
 /**
  * At 670px, divide the form columns, since there's enough room now.
  */
 @media all and (min-width: 670px) {
-	#webform-component-billing-information--address-line-2 label {
-		visibility: hidden;
-	}
-	#edit-submitted-billing-information-payment-fields-credit {
-		height: 0;
-	}
-	
-	.form-item,
-	.expiration-date-wrapper {
-		clear: none;
-	}
-	
-	#webform-component-billing-information > .fieldset-wrapper > .form-item,
-	#webform-component-billing-information #zone-select-wrapper,
-	#edit-submitted-billing-information-payment-fields-credit > .fieldset-wrapper > .form-item,
-	.expiration-date-wrapper {
-		float: left;
-		width: 48%;
-		margin-right: 2%;
-	}
-	
-	.form-item-submitted-billing-information-payment-fields-credit-card-cvv label,
-	.form-item-submitted-billing-information-payment-fields-credit-card-number label {
-		width: 45%;
-	}
+  #webform-component-billing-information--address-line-2 label {
+    visibility: hidden;
+  }
+  #edit-submitted-billing-information-payment-fields-credit {
+    height: 0;
+  }
+
+  .form-item,
+  .expiration-date-wrapper {
+    clear: none;
+  }
+
+  #webform-component-billing-information > .fieldset-wrapper > .form-item,
+  #webform-component-billing-information #zone-select-wrapper,
+  #edit-submitted-billing-information-payment-fields-credit > .fieldset-wrapper > .form-item,
+  .expiration-date-wrapper {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+  }
+
+  .form-item-submitted-billing-information-payment-fields-credit-card-cvv label,
+  .form-item-submitted-billing-information-payment-fields-credit-card-number label {
+    width: 45%;
+  }
 }
 
 /**
@@ -784,19 +788,19 @@ body {
  * and move the 'ratings from...' area too  the right.
  */
 @media all and (min-width: 700px) {
-	
-	/* Page content */
-	
-	.gridwrap.content .inner {
-		max-width: 740px;
-	}
-	
-	#ratings_from {
-		float: right;
-		max-width: 230px;
-		margin: 0 0 10px 10px;
-		border-bottom: none;
-	}
+
+  /* Page content */
+
+  .gridwrap.content .inner {
+    max-width: 740px;
+  }
+
+  #ratings_from {
+    float: right;
+    max-width: 230px;
+    margin: 0 0 10px 10px;
+    border-bottom: none;
+  }
 }
 
 /**
@@ -805,25 +809,25 @@ body {
  * as the header, and center the main column containing the form.
  */
 @media all and (min-width: 767px) {
-	h1 {
-		font-size: 2em;
-	}
-	
-	#donation-message h1 {
-		width: 96%;
-	}
-	
-	#logo-top {
-		width: auto;
-		margin-right: 1.5%;
-	}
-	
-	/* Page elements */
-	
-	.gridwrap.content .inner {
-		margin: 0 auto;
-	}
-	
+  h1 {
+    font-size: 2em;
+  }
+
+  #donation-message h1 {
+    width: 96%;
+  }
+
+  #logo-top {
+    width: auto;
+    margin-right: 1.5%;
+  }
+
+  /* Page elements */
+
+  .gridwrap.content .inner {
+    margin: 0 auto;
+  }
+
 }
 
 /**
@@ -831,92 +835,92 @@ body {
  * Give each grid item its own percentage width (no more grouping).
  */
 @media all and (min-width: 950px) {
-	h1 {
-		font-size: 2.75em;
-	}
-	
-	/* Page header */
-	
-	.head {
-		margin-top: 30px;
-	}
-	
-	#donation-message {
-		font-size: 1.083333em;
-		width: 55%;
-	}
-	
-	/* Page elements */
-	
-	.gridwrap.content .inner {
-		width: 78%;
-		float: right;
-		margin: 0 13px;
-	}
-	
-	.footer-line {
-		text-align: right;
-		margin: 0;
-	}
-	
-	/* Donation Webform */
-	
-	#webform-component-billing-information > .fieldset-wrapper > .form-item,
-	#webform-component-billing-information #zone-select-wrapper,
-	#edit-submitted-billing-information-payment-fields-credit > .fieldset-wrapper > .form-item,
-	.expiration-date-wrapper {
-		float: left;
-		width: 43%;
-		margin-right: 7%;
-	}
-	
-	/* Grid Elements */
-	
-	.grid-1 {
-	  width: 8.33333%;
-	}
-	
-	.grid-2 {
-	  width: 16.666666%;
-	}
-	
-	.grid-3 {
-	  width: 25%;
-	}
-	
-	.grid-4 {
-	  width: 33.3333%;
-	}
-	
-	.grid-5 {
-	  width: 41.66666%;
-	}
-	
-	.grid-6 {
-	  width: 50%;
-	}
-	
-	.grid-7 {
-	  width: 58.33333%;
-	}
-	
-	.grid-8 {
-	  width: 66.66666%;
-	}
-	
-	.grid-9 {
-	  width: 75%;
-	}
-	
-	.grid-10 {
-	  width: 83.33333%;
-	}
-	
-	.grid-11 {
-	  width: 91.666666%;
-	}
-	
-	.grid-12 {
-	  width: 100%;
-	}
+  h1 {
+    font-size: 2.75em;
+  }
+
+  /* Page header */
+
+  .head {
+    margin-top: 30px;
+  }
+
+  #donation-message {
+    font-size: 1.083333em;
+    width: 55%;
+  }
+
+  /* Page elements */
+
+  .gridwrap.content .inner {
+    width: 78%;
+    float: right;
+    margin: 0 13px;
+  }
+
+  .footer-line {
+    text-align: right;
+    margin: 0;
+  }
+
+  /* Donation Webform */
+
+  #webform-component-billing-information > .fieldset-wrapper > .form-item,
+  #webform-component-billing-information #zone-select-wrapper,
+  #edit-submitted-billing-information-payment-fields-credit > .fieldset-wrapper > .form-item,
+  .expiration-date-wrapper {
+    float: left;
+    width: 43%;
+    margin-right: 7%;
+  }
+
+  /* Grid Elements */
+
+  .grid-1 {
+    width: 8.33333%;
+  }
+
+  .grid-2 {
+    width: 16.666666%;
+  }
+
+  .grid-3 {
+    width: 25%;
+  }
+
+  .grid-4 {
+    width: 33.3333%;
+  }
+
+  .grid-5 {
+    width: 41.66666%;
+  }
+
+  .grid-6 {
+    width: 50%;
+  }
+
+  .grid-7 {
+    width: 58.33333%;
+  }
+
+  .grid-8 {
+    width: 66.66666%;
+  }
+
+  .grid-9 {
+    width: 75%;
+  }
+
+  .grid-10 {
+    width: 83.33333%;
+  }
+
+  .grid-11 {
+    width: 91.666666%;
+  }
+
+  .grid-12 {
+    width: 100%;
+  }
 }
