@@ -21,7 +21,7 @@
   <div class="inner cf">
     <div class="grid-12 first last">
       <?php if (!empty($tabs['#primary'])): 
-        print '<ul class="tabs primary">'. render($tabs) .'</ul>'; 
+        print '<ul class="tabs primary">'. render($tabs) .'</ul>';
       endif; ?>
       <?php if ($show_messages && $messages): 
         print $messages; 

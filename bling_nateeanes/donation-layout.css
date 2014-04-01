@@ -331,6 +331,10 @@ button {
   min-height: 34px;
 }
 
+#webform-component-billing-information--payment-fields {
+	clear: left;
+}
+
 .form-item-submitted-billing-information-payment-fields-credit-card-cvv .description {
   display: inline-block;
   clear: none;
@@ -440,6 +444,7 @@ blockquote:before,blockquote:after,q:before,q:after {
   overflow: hidden;
   margin-top: 15px;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 /* Grid elements */
@@ -766,6 +771,12 @@ body {
   }
   #edit-submitted-billing-information-payment-fields-credit {
     height: 0;
+  }
+  
+  @-moz-document url-prefix() {
+    #edit-submitted-billing-information-payment-fields-credit {
+      height: auto;
+    }
   }
 
   .form-item,
